@@ -18,8 +18,8 @@ void main()
 	int count;
 	while(number>100||number<=0)
 		{
-		printf("Error number should be from 1 to 100");
-		printf("please Enter the Number again:");
+		printf("Error number should be from 1 to 100\n");
+		printf("please Enter the Number again:\n");
 		fflush(stdout);
 		scanf("%d",&number);
 		}
