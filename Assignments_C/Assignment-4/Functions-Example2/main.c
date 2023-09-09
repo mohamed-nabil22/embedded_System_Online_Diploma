@@ -8,12 +8,11 @@
 #include <stdio.h>
 int factorial(int x)
 {
-	int fact = x;
-	while(x!=1)
+	if(x!=1)
 	{
-		fact=fact*--x;
+		return x*factorial(x-1);
 	}
-	return fact;
+
 }
 void main()
 {
